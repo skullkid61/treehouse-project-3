@@ -71,7 +71,7 @@ input::placeholder {
   text-align: right;
   color: #9da2a7;
   font-size: .9em;
-  font-style: semi-italic;
+  font-style: italic;
   padding-right: 5px;
 }
 
@@ -168,11 +168,12 @@ hr.top-bar {
   li {
     display: flex;
     align-items: baseline;
+    justify-content: flex-start;
   }
 
   li label {
-    flex: 200px 1;
-    margin-right: 30px;
+    margin-right: 15px;
+    min-width: 150px;
   }
 
   input[type="text"],
