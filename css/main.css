@@ -70,7 +70,8 @@ input:focus {
   color: black;
 }
 
-input::placeholder {
+input[id="mail"]::placeholder,
+input[id="name"]::placeholder {
   text-align: right;
   color: #9da2a7;
   font-size: .9em;
@@ -78,7 +79,7 @@ input::placeholder {
   padding-right: 5px;
 }
 
-input[id="street"]::placeholder {
+input::placeholder {
   text-align: left;
   font-style: normal;
 }
