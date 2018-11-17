@@ -78,6 +78,11 @@ input::placeholder {
   padding-right: 5px;
 }
 
+input[id="street"]::placeholder {
+  text-align: left;
+  font-style: normal;
+}
+
 textarea {
   margin-bottom: 10px;
 }
